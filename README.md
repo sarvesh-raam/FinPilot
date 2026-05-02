@@ -268,11 +268,11 @@ Three transaction profiles can be activated via `POST /simulation/scenarios/acti
 
 ## Team
 
-| Name | Role |
-|---|---|
-| [Sarvesh Raam T K](https://github.com/sarvesh-raam) | Lead Architect |
-| [Jeswin Sunsi](https://github.com/JeswinSunsi) | Frontend & Integration |
-| [Abinav Mugundhan](https://github.com/abinavmugundhan) | Backend & Services |
+| Name |
+|---|
+| [Sarvesh Raam T K](https://github.com/sarvesh-raam) |
+| [Jeswin Sunsi](https://github.com/JeswinSunsi) |
+| [Abinav Mugundhan](https://github.com/abinavmugundhan) |
 
 Recognised by Mrs. Lakshmi Kothandapani (Manager — IT, Flextronics) and Mr. Dhilip Kumar R (Technologist, Tata Steel) at Pentathon 3.0, SRMIST.
 
