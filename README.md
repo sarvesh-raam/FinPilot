@@ -1,46 +1,45 @@
-```
- █████╗ ███╗   ██╗ █████╗ ███╗   ██╗██████╗     ██╗  ██╗
-██╔══██╗████╗  ██║██╔══██╗████╗  ██║██╔══██╗    ██║ ██╔╝
-███████║██╔██╗ ██║███████║██╔██╗ ██║██║  ██║    █████╔╝ 
-██╔══██║██║╚██╗██║██╔══██║██║╚██╗██║██║  ██║    ██╔═██╗ 
-██║  ██║██║ ╚████║██║  ██║██║ ╚████║██████╔╝    ██║  ██╗
-╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝     ╚═╝  ╚═╝
-```
-## 👨‍💻 Aspiring Cybersecurity Intern | SRMIST
+# FinPilot: Scalable Financial Intelligence Platform
+**First Prize Winner - Pentathon 3.0 (Appathon)**
 
-I’m a cybersecurity student at SRM Institute of Science and Technology (SRMIST) with a strong interest in ethical hacking, network security, and digital defense. I’m passionate about understanding how systems break — and how to secure them.
+## Project Overview
+FinPilot is a robust mobile application developed during the 24-hour Pentathon 3.0 hackathon hosted by the SRM Institute of Science and Technology. The system provides automated financial tracking and intelligence by processing complex datasets into actionable insights. The primary objective of the implementation was to demonstrate a scalable architecture capable of high-concurrency data processing under strict development constraints.
 
+## System Architecture
+The application is built on a decoupled architecture to ensure maintainability and future extensibility.
 
-### 🔐 Areas of Interest
+### Frontend Engineering
+The user interface is implemented using Vue.js, chosen for its reactive state management and efficient virtual DOM rendering. The design prioritizes data density and low-latency interactions.
 
-- Ethical Hacking & Penetration Testing  
-- Network Security & Traffic Analysis  
-- Web Application Security  
-- Cryptography & Secure Communications  
-- Digital Forensics  
+### Backend Infrastructure
+The backend services are developed in Python, focusing on modularity and secure data handling. The integration between the Vue.js frontend and Python backend utilizes standardized RESTful principles to ensure seamless communication and data integrity.
 
+### Data Management
+[Insert Database Name, e.g., PostgreSQL or Firebase] was utilized for persistent storage, with a focus on optimized query performance and secure transaction logging.
 
-### 🧰 Skills & Tools
+## Technical Challenges and Engineering Solutions
 
-- **Languages:** Python, Bash, JavaScript (basics)  
-- **Security Tools:** Nmap, Wireshark, Burp Suite, Metasploit  
-- **Concepts:** OWASP Top 10, Vulnerability Assessment, Threat Modeling  
-- **Systems:** Linux (Kali Linux, Ubuntu)  
-- **Other:** Git, basic scripting & automation  
+### 1. Rapid Prototype Scalability
+**Challenge:** Developing a production-ready architecture within a 24-hour timeframe.
+**Solution:** Adopted a component-based design pattern that allowed for parallel development of the analytics engine and the UI layer, reducing integration friction.
 
+### 2. Performance Optimization
+**Challenge:** Minimizing latency in financial data visualization.
+**Solution:** Implemented efficient data serialization and optimized frontend rendering cycles to ensure a sub-second response time for critical dashboard metrics.
 
-### 📚 Currently Learning
+## Core Features
+- Real-time financial data aggregation and processing.
+- Advanced analytics dashboard with reactive visualization.
+- Secure user authentication and data encryption protocols.
+- Scalable infrastructure designed for high-concurrency environments.
 
-- Advanced penetration testing techniques  
-- Reverse engineering basics  
-- Capture The Flag (CTF) challenges  
-- Secure coding practices  
+## Development Team
+- **sarvesh-raam** - System Architecture and Lead Development
+- **JeswinSunsi** - [Insert Role, e.g., Backend Engineering]
+- **abinavmugundhan** - [Insert Role, e.g., Frontend Engineering]
 
+## Acknowledgments
+We would like to acknowledge the industry jury for their technical evaluation and feedback:
+- **Mrs. Lakshmi Kothandapani** (Manager - IT, Flextronics Pvt Ltd)
+- **Mr. Dhilip Kumar R** (Technologist, Tata Steel)
 
-### 🌐 Connect with Me
-
-- GitHub: https://github.com/yourusername  
-- LinkedIn: https://linkedin.com/in/yourprofile  
-
-
-> Breaking systems to understand them better — and rebuilding them stronger.
+Organized by CINTEL’s NextGen AI and the School of Computing, SRM Institute of Science and Technology.
